@@ -1,0 +1,32 @@
+form {
+    margin-top: 3%;
+       display: flex;
+    flex-direction: column;    
+align-items: center;
+    gap: 20px;
+
+.inputBloc {
+display: flex;
+gap: 1%;
+justify-content: center;
+width: 100%;
+
+
+    input {
+       background-color: white;
+       border: 3px solid black;
+    }
+}
+    .submit {
+        background-color: white;
+        border: 3px solid #FFD90F;
+        border-radius: 5px;
+        width: 30%;
+        margin: 0 auto;
+     }
+    .error {
+        color: red;
+    }
+ 
+}
+
